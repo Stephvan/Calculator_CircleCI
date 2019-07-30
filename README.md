@@ -3,7 +3,7 @@
 
 ## Steps
  
- #Environment Set Up
+ # Environment Set Up
  1. Create your repo on GitHub or your prefered version control system
  
  2. Set up the working environment by creating a virtual python environment. See steps below to create a virtual environment:
