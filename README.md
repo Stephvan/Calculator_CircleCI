@@ -1,45 +1,52 @@
- <h1> Calculator_CircleCI </h1>
- This project is to demostrate CI/CD using CircleCI
+# Calculator_CircleCI
+
+ This project is to demostrate CI/CD using **CircleCI**
 
 ## Steps
  
- # Environment Set Up
+  ###   Environment Set Up
  1. Create your repo on GitHub or your prefered version control system
  
  2. Set up the working environment by creating a virtual python environment. See steps below to create a virtual environment:
   
-  ## On Windows:
-  a. Open the Windows Command Prompt (show path via Start menu and keyboard shortcuts)
+    ####   On Windows:
+    
+    - Open the Windows Command Prompt (show path via Start menu and keyboard shortcuts)
+    
+
+    ####   Mac OS / Linux
+    - Open the Terminal program. This is usually found under Utilities or Accessories.
   
-  ## Mac OS / Linux
-  b. Open the Terminal program. This is usually found under Utilities or Accessories.
-  
+
  3. Setup the pip package manager
  Check to see if your Python installation has pip. Enter the following in your terminal:
   
-   pip -h
+        pip -h
    
+
  4. Install the virtualenv package
  The virtualenv package is required to create virtual environments. You can install it with pip:
 
-pip install virtualenv
+        pip install virtualenv
 
-Create the virtual environment
 
-To create a virtual environment, you must specify a path. For example to create one in the local directory called ‘mypython’, type the following:
+5. Create the virtual environment
 
-virtualenv mypython
+    To create a virtual environment, you must specify a path. For example to create one in the local directory called ‘mypython’, type the following:
 
-Activate the virtual environment
+       virtualenv mypython
 
-You can activate the python environment by running the following command:
-Mac OS / Linux
+6. Activate the virtual environment
 
-source mypython/bin/activate
+    You can activate the python environment by running the following command:
+    
+#### Mac OS / Linux
 
-Windows
+     source mypython/bin/activate
 
-mypthon\Scripts\activate
+#### Windows
+
+    mypthon\Scripts\activate
 
 You should see the name of your virtual environment in brackets on your terminal line e.g. (mypython).
 
@@ -48,4 +55,4 @@ Deactivate the virtual environment
 
 To decativate the virtual environment and use your original Python environment, simply type ‘deactivate’.
 
-deactivate
+    deactivate
