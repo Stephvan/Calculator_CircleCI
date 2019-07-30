@@ -64,3 +64,7 @@ After activating the environment, initialize git using the command below:
 
     git init
   
+
+Once all these are done, launch your python editor. I use Spyder in Anaconda. To activate my environment, I will type:
+
+    spyder
