@@ -56,3 +56,11 @@ Deactivate the virtual environment
 To decativate the virtual environment and use your original Python environment, simply type ‘deactivate’.
 
     deactivate
+
+
+## Git Setup
+
+After activating the environment, initialize git using the command below:
+
+    git init
+  
