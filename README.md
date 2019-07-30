@@ -1,4 +1,4 @@
- h1 Calculator_CircleCI
+ <h1> Calculator_CircleCI </h1>
  This project is to demostrate CI/CD using CircleCI
 
 ## Steps
